@@ -1,2 +1,4 @@
-# Prueba-Tecnica-Fullstack-PokeAPI
-Prueba Técnica Fullstack: Maquetación e Integración de Datos Objetivo: Crear una interfaz web funcional que consuma datos de la PokeAPI y que se ajuste al diseño proporcionado.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+- Next.js version: 15.1.2
+- Tailwind CSS version: ^3.4.1
