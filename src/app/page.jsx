@@ -6,11 +6,11 @@ import { BsArrowLeft } from "react-icons/bs";
 import { FaListUl } from "react-icons/fa";
 
 // Pagina del indice
-// Soy consciente de que no es necesario, pero por simpleza lo he hecho tambien
+// Soy consciente de que no es necesario, pero por simpleza se ha hecho tambien
 function Home() {
   return (
     <>
-      <nav className='relative w-full text-xl items-center flex justify-between px-5 mb-5 mt-16'>
+      <nav className='relative w-full text-xl items-center flex justify-between px-5 pb-5 pt-10'>
         <div className='text-2xl z-20 cursor-pointer'><BsArrowLeft /></div>
         <div className='z-20 cursor-pointer'><FaListUl /></div>
       </nav>
@@ -28,21 +28,22 @@ function Home() {
               const types = pokemon.types.split(", ")
 
               return (
-                <Link href={`./pokemon/${(pokemon.name).toLowerCase()}`} key={i} className={`relative flex flex-col min-h-[130px] ${types[0]} text-white px-5 pt-6 shadow-xl rounded-2xl overflow-hidden`}>
+                <Link href={`./pokemon/${(pokemon.name).toLowerCase()}`} key={i}
+                  className={`relative flex flex-col min-h-[130px] ${types[0].toLowerCase()} text-white px-5 pt-6 shadow-xl rounded-2xl overflow-hidden`}>
                   {/* Nombre del pokemon */}
                   <h2 className='font-bold text-lg z-20'>{pokemon.name}</h2>
 
                   {/* Tipos del pokemon, mapeados previamente de -> const types */}
                   <div className={`flex flex-col space-y-[6px] mt-2`}>
                     {types.map((type, j) => (
-                      <div className={`${types[0]} w-fit rounded-full z-20`}>
+                      <div className={`${types[0].toLowerCase()} w-fit rounded-full z-20`}>
                         <h1 className='bg-white bg-opacity-20 text-xs rounded-full w-fit px-3 py-[2px]'>{type}</h1>
                       </div>
                     ))}
                   </div>
 
                   {/* Numero de la pokedex del pokemon */}
-                  <span className='absolute top-3 right-3 font-bold text-black text-xl text-opacity-10 z-40'>#{pokemon.number}</span>
+                  <span className='absolute top-2 right-3 font-bold text-black text-xl text-opacity-10 z-40'>#{pokemon.number}</span>
 
 
                   {/* Imagen de la pokeball de fondo */}
