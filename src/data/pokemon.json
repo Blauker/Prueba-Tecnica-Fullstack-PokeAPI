@@ -60,18 +60,56 @@
         "name": "Caterpie",
         "number": "010",
         "image": "10",
-        "types": "Bug, Flying"
+        "types": "Bug"
     },
     {
         "name": "Metapod",
         "number": "011",
         "image": "11",
-        "types": "Bug, Flying"
+        "types": "Bug"
     },
     {
         "name": "Butterfree",
         "number": "012",
         "image": "12",
         "types": "Bug, Flying"
+    },
+    
+    {
+        "name": "Weedle",
+        "number": "013",
+        "image": "13",
+        "types": "Bug, Poison"
+    },
+    {
+        "name": "Kakuna",
+        "number": "014",
+        "image": "14",
+        "types": "Bug, Poison"
+    },
+    {
+        "name": "Beedril",
+        "number": "015",
+        "image": "15",
+        "types": "Bug, Poison"
+    },
+    
+    {
+        "name": "Pidgey",
+        "number": "016",
+        "image": "16",
+        "types": "Normal, Flying"
+    },
+    {
+        "name": "Pidgeotto",
+        "number": "017",
+        "image": "17",
+        "types": "Normal, Flying"
+    },
+    {
+        "name": "Pidgeot",
+        "number": "018",
+        "image": "18",
+        "types": "Normal, Flying"
     }
 ]
