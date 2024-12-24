@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Bulbasaur",
+        "number": "001",
+        "image": "1",
+        "types": "Grass, Poison"
+    },
+    {
+        "name": "Ivysaur",
+        "number": "002",
+        "image": "2",
+        "types": "Grass, Poison"
+    },
+    {
+        "name": "Venusaur",
+        "number": "003",
+        "image": "3",
+        "types": "Grass, Poison"
+    },
+
+    {
+        "name": "Charmander",
+        "number": "004",
+        "image": "4",
+        "types": "Fire"
+    },
+    {
+        "name": "Charmeleon",
+        "number": "005",
+        "image": "5",
+        "types": "Fire"
+    },
+    {
+        "name": "Charizard",
+        "number": "006",
+        "image": "6",
+        "types": "Fire, Flying"
+    },
+    
+    {
+        "name": "Squirtle",
+        "number": "007",
+        "image": "7",
+        "types": "Water"
+    },
+    {
+        "name": "Wartortle",
+        "number": "008",
+        "image": "8",
+        "types": "Water"
+    },
+    {
+        "name": "Blastoise",
+        "number": "009",
+        "image": "9",
+        "types": "Water"
+    },
+    
+    {
+        "name": "Caterpie",
+        "number": "010",
+        "image": "10",
+        "types": "Bug, Flying"
+    },
+    {
+        "name": "Metapod",
+        "number": "011",
+        "image": "11",
+        "types": "Bug, Flying"
+    },
+    {
+        "name": "Butterfree",
+        "number": "012",
+        "image": "12",
+        "types": "Bug, Flying"
+    }
+]
